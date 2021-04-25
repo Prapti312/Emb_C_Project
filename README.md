@@ -6,7 +6,7 @@
 
 |Heater is ON and Occupancy is Detected|Heater is ON and Occupancy is not Detected|
 |:--:|:--:|
-|![ON](https://github.com/Prapti312/Emb_C_Project/blob/main/simulation/HeaterON-NoOccupancy%20(2).png)|![OFF](https://github.com/Prapti312/Emb_C_Project/blob/main/simulation/HeaterON-NoOccupancy%20(2).png)|
+|![ON](https://github.com/Prapti312/Emb_C_Project/blob/main/simulation/HeaterON-Occupacy%20(2).png)|![OFF](https://github.com/Prapti312/Emb_C_Project/blob/main/simulation/HeaterON-NoOccupancy%20(2).png)|
 
 |Heater is OFF and Occupancy is Detected|Heater is OFF and Occupancy is not Detected|
 |:--:|:--:|

@@ -1,8 +1,6 @@
 # Embedded C Programming Activity with Continuous Integration and Code Quality
 
-## LED is ON only when Heater is ON and Occupancy of Person is Detected
-
-## In Action
+## Activity1
 
 |Heater is ON and Occupancy is Detected|Heater is ON and Occupancy is not Detected|
 |:--:|:--:|
@@ -11,6 +9,10 @@
 |Heater is OFF and Occupancy is Detected|Heater is OFF and Occupancy is not Detected|
 |:--:|:--:|
 |![OFF](https://github.com/Prapti312/Emb_C_Project/blob/main/simulation/HeaterOFF-Occupancy%20(2).png)|![OFF](https://github.com/Prapti312/Emb_C_Project/blob/main/simulation/OFF.png)|
+
+## Activity2
+![Activity2](https://github.com/Prapti312/Emb_C_Project/blob/main/simulation/activity2%20(2).png)
+
 
 ### CI and Code Quality
 

@@ -14,29 +14,12 @@
 #include "project_config.h"
 
 #include "user_utils.h"
-#include "activity.h"
-
-/**
- * @brief Initialize all the Peripherals and pin configurations
- *
- */
-void peripheral_init(void)
-{
-	DDRB|=(1<<LED_PIN);//SET PB0 AS OUTPUT PIN FOR LED
-    DDRD&=~(1<<HEARTER_PIN);//PUSH BUTTON FOR PASENGER CHECK
-    DDRD&=~(1<<OCCUPANCY_PIN);//PUSH BUTTON FOR HEATER CHECK
-
-    HEATER_OCCUPANCY_PORT|=(1<<HEARTER_PIN);//SET 5 VOLT WHEN SWITCH IS OFF
-    HEATER_OCCUPANCY_PORT|=(1<<OCCUPANCY_PIN);//SET 5 VOLT WHEN SWITCH IS OFF
-}
-
-void change_led_state(uint8_t state)
-{
-	LED_PORT = (state << LED_PIN);
-}
+#include "activity1.h"
+#include "activity2.h"
 
 int main(void)
 {
+    uint16_t temp;
 	/* Initialize Peripherals */
 	peripheral_init();
 
@@ -46,6 +29,9 @@ int main(void)
         {
             change_led_state(LED_ON);
 		    delay_ms(LED_ON_TIME);
+            temp=ReadADC(0);
+            _delay_ms(200);
+
         }
         else
         {

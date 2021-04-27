@@ -1,7 +1,7 @@
-#ifndef __ACTIVITY_H_
-#define __ACTIVITY_H_
+#ifndef __ACTIVITY1_H_
+#define __ACTIVITY1_H_
 /**
- * @file activity.h
+ * @file activity1.h
  * @author Prapti Bhajiyawala (praptibhajiyawala312@gmail.com)
  * @brief Activity1 LED is ON only when Occupancy of Person is There and Heater is ON
  * @version 0.1
@@ -35,6 +35,11 @@
  * @param state
  */
 void change_led_state(uint8_t state);
+/**
+ * @brief peripheral Inialization for LED
+ *
+ */
+void peripheral_init(void);
 
 
-#endif /** __ACTIVITY_H_ */
+#endif /** __ACTIVITY1_H_ */

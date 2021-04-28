@@ -13,7 +13,6 @@
 ## Activity2
 ![Activity2](https://github.com/Prapti312/Emb_C_Project/blob/main/simulation/activity2%20(2).png)
 
-
 ### CI and Code Quality
 
 |Build|Cppcheck|Codacy|

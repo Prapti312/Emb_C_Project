@@ -5,6 +5,7 @@
 #include "activity1.h"
 #include "project_config.h"
 #include"activity2.h"
+#include "activity3.h"
 
 
 
@@ -18,6 +19,7 @@ void peripheral_init(void)
     HEATER_OCCUPANCY_PORT|=(1<<OCCUPANCY_PIN);//SET 5 VOLT WHEN SWITCH IS OFF
 
     InitADC();//INITALIZE ADC
+    InitPWM(); //INITIALIZATION FOR PWM OUTPUT
 }
 
 void change_led_state(uint8_t state)

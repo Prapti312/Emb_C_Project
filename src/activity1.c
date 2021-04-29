@@ -4,9 +4,9 @@
 
 #include "activity1.h"
 #include "project_config.h"
-#include"activity2.h"
+#include "activity2.h"
 #include "activity3.h"
-
+#include "activity4.h"
 
 
 void peripheral_init(void)
@@ -20,6 +20,7 @@ void peripheral_init(void)
 
     InitADC();//INITALIZE ADC
     InitPWM(); //INITIALIZATION FOR PWM OUTPUT
+    USARTInit(103); //USART INITIATE
 }
 
 void change_led_state(uint8_t state)

@@ -4,8 +4,8 @@
 
 #include "activity1.h"
 #include "project_config.h"
-#include"activity2.h"
-#include"activity3.h"
+#include "activity2.h"
+#include "activity3.h"
 
 void InitPWM()
 {

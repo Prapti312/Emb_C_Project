@@ -19,3 +19,16 @@
 ## Activity2
 ![Activity2](https://github.com/Prapti312/Emb_C_Project/blob/main/simulation/activity2%20(2).png)
 
+## Activity3
+
+|20% PWM|40% PWM|
+|:--:|:--:|
+|![20_PWM](https://github.com/Prapti312/Emb_C_Project/blob/main/simulation/20_PWM%20(2).png)|![40_PWM](https://github.com/Prapti312/Emb_C_Project/blob/main/simulation/40_PWM%20(2).png)|
+
+|70% PWM|95% PWM|
+|:--:|:--:|
+|![70_PWM](https://github.com/Prapti312/Emb_C_Project/blob/main/simulation/70_PWM%20(2).png)|![95_PWM](https://github.com/Prapti312/Emb_C_Project/blob/main/simulation/95_PWM%20(2).png)|
+
+## Activity4
+![Activity4](https://github.com/Prapti312/Emb_C_Project/blob/main/simulation/Activity4_N.png)
+

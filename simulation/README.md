@@ -22,4 +22,4 @@
 |![70_PWM](https://github.com/Prapti312/Emb_C_Project/blob/main/simulation/70_PWM%20(2).png)|![95_PWM](https://github.com/Prapti312/Emb_C_Project/blob/main/simulation/95_PWM%20(2).png)|
 
 ## Activity4
-![Activity4](https://github.com/Prapti312/Emb_C_Project/blob/main/simulation/Activity4.png)
+![Activity4](https://github.com/Prapti312/Emb_C_Project/blob/main/simulation/Activity4_N.png)
